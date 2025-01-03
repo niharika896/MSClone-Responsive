@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+.slide{
+    display: none;
+}
+
+.slide.active {
+    display: flex;
+    flex-direction: column;
+}
+.dot.active{
+    background-color: black
+}
